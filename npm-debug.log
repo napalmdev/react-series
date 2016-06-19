@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/denis/.nvm/versions/node/v5.2.0/bin/node',
+1 verbose cli   '/home/denis/.nvm/versions/node/v5.2.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev-main' ]
+2 info using npm@3.3.12
+3 info using node@v5.2.0
+4 verbose stack Error: missing script: dev-main
+4 verbose stack     at run (/home/denis/.nvm/versions/node/v5.2.0/lib/node_modules/npm/lib/run-script.js:147:19)
+4 verbose stack     at /home/denis/.nvm/versions/node/v5.2.0/lib/node_modules/npm/lib/run-script.js:57:5
+4 verbose stack     at /home/denis/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+4 verbose stack     at checkBinReferences_ (/home/denis/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+4 verbose stack     at final (/home/denis/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+4 verbose stack     at then (/home/denis/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+4 verbose stack     at /home/denis/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/read-package-json/read-json.js:300:12
+4 verbose stack     at /home/denis/.nvm/versions/node/v5.2.0/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16
+4 verbose stack     at tryToString (fs.js:415:3)
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:402:12)
+5 verbose cwd /media/denis/390fd08c-36c0-4c84-bc69-ead53e2da27b/GIT/react-series
+6 error Linux 3.16.0-57-generic
+7 error argv "/home/denis/.nvm/versions/node/v5.2.0/bin/node" "/home/denis/.nvm/versions/node/v5.2.0/bin/npm" "run" "dev-main"
+8 error node v5.2.0
+9 error npm  v3.3.12
+10 error missing script: dev-main
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
